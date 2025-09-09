@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 7: CSS & JavaScript Animations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bringing Web Pages to Life 🎬✨</h1>
+    <p>Week 7 Assignment – CSS3 Animations + JavaScript Functions</p>
+  </header>
+
+  <main>
+    <!-- Part 1: CSS Animations -->
+    <section class="hero">
+      <h2>CSS3 Animations</h2>
+      <p>Hover, fade, and bounce effects make the page dynamic and fun.</p>
+      <button class="animated-btn">Hover Me</button>
+    </section>
+
+    <!-- Animated Box -->
+    <section class="box-section">
+      <h2>Interactive Box</h2>
+      <div id="box" class="box"></div>
+      <button id="animateBoxBtn">Animate Box</button>
+    </section>
+
+    <!-- Card Flip -->
+    <section class="card-section">
+      <h2>Flip Card</h2>
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">Hi! Im the Front</div>
+          <div class="card-back">Hello! Im the Back</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <section class="modal-section">
+      <h2>Popup Modal</h2>
+      <button id="openModalBtn">Open Modal</button>
+      <div id="modal" class="modal hidden">
+        <div class="modal-content">
+          <p>This is a sliding modal with animation 🚀</p>
+          <button id="closeModalBtn">Close</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form for JS Validation -->
+    <section class="form-section">
+      <h2>Simple Calculator</h2>
+      <form id="calcForm">
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <button type="submit">Add</button>
+      </form>
+      <p id="calcResult"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Interactive Web Assignment | Made with CSS and JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
